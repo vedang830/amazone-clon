@@ -144,6 +144,7 @@ span{
     align-items: flex-end;
 
 }
+
 .hero-message{
     background-color: white;
     color: black;
@@ -190,6 +191,45 @@ span{
 .box-content p{
     color: #007185;
 }
+.sign-up-section{
+    height: 150px;
+    width: 100%;
+}
+.reco{
+    height: 36px;
+    width: 628px;
+    position: relative;
+    left: 25%;
+    top: 20px;
+}
+.see{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.last-sign-up{
+    background-color: yellow;
+    color: #0f1111;
+    height: 40px;
+    width: 150px;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: 1px solid yellow;
+    position: relative;
+    left: 43%;
+    top: 20px;
+}
+.New{
+    color: #0f1111;
+    position: relative;
+    left: 43%;
+    top: 25px;
+    font-size: small;
+}
+.foot-sign-up a{
+    color: #2162a2;
+    left: 42%;
+}
 /**footer**/
 footer{
     margin-top: 15px;
@@ -206,13 +246,17 @@ footer{
 .foot-panel2{
     background-color: #222f3d;
     color: white;
-    height: 200px;
+    
+    height: 300px;
     display: flex;
     justify-content: space-evenly;
 }
-
+ul p{
+    font-weight: 700;
+}
 ul{
     margin-top: 20px;
+   
 }
 ul a{
     display: block;
@@ -234,6 +278,28 @@ ul a{
     background-size: cover;
     height: 50px;
     width: 100px;
+}
+.foot-eng{
+    border: 1px solid #cccccc;
+    position:relative;
+    left :50px;
+    height: 25px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+}
+.foot-country{
+    border: 1px solid #cccccc;
+    position: relative;
+    left: 60px;
+    height: 25px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
 }
 .foot-panel4{
     background-color: #0f1111;
