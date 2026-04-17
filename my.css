@@ -204,8 +204,9 @@ span{
 }
 .see{
     display: flex;
-    justify-content: center;
     color: black;
+    position: relative;
+    left: 20%;
 }
 .last-sign-up{
     background-color: yellow;
@@ -215,20 +216,19 @@ span{
     font-size: 1rem;
     border-radius: 20px;
     border: 1px solid yellow;
-    position: relative;
-    left: 43%;
-    top: 20px;
+    margin-left: 43%;
+    margin-top: 20px;
 }
 .New{
     color: #0f1111;
-    position: relative;
-    left: 43%;
-    top: 25px;
+    margin-left: 43%;
+    margin-top: 20px;
     font-size: small;
 }
 .foot-sign-up a{
     color: #2162a2;
-    left: 42%;
+    margin-left: 43%;
+    margin-top: 20px;
 }
 /**footer**/
 footer{
